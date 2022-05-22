@@ -69,8 +69,7 @@ A*cat*meow
 Markdown applications don’t agree on how to handle underscores in the middle of a word.
 
 
-Bold and Italic
----
+### Bold and Italic
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
 
@@ -112,4 +111,71 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 > - Profits were higher than ever.
 >
 >  *Everything* is going according to **plan**.
+
+## Ordered Lists
+
+To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+####
+
+1. First item
+8. Second item
+3. Third item
+5. Fourth item
+
+####
+
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
+
+## Unordered Lists
+
+To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
+
+
+- First item
+- Second item
+- Third item
+- Fourth item
+
+- First item
+- Second item
+    - Intendent item
+    - Intendent item
+- Third item
+- Fourth item
+
+If you need to start an unordered list item with a number followed by a period, you can use a backslash (\) to escape the period.
+
+- 1968\.  A great year!
+- I think 1969 was second best.
+
+### Adding Elements in Lists
+
+To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.
+
+* This is the first list item.
+* Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+* And here's the third list item.
+
+### Blockquotes
+
+* This is the first list item.
+* Here's the second list item.
+
+    > A blockquote would look great below the second list item.
+
+* And here's the third list item.
 
