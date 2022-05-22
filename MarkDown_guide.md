@@ -179,3 +179,38 @@ To add another element in a list while preserving the continuity of the list, in
 
 * And here's the third list item.
 
+## Horizontal Rules
+
+To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
+
+***
+
+---
+
+_________________
+
+## Strikethrough
+
+~~This was mistaken text~~
+
+## Subscript
+
+<sub>This is a subscript text</sub>
+
+## Superscript
+
+<sup>This is a superscript text</sup>
+
+## Quoting code
+
+Use `git status` to list all new or modified files that haven't yet been committed.
+
+To format code or text into its own distinct block, use triple backticks.
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+
