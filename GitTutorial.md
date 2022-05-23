@@ -30,3 +30,5 @@ You can see all of the options with git init in [git-scm's documentation](https:
 
 *git add* and *git commit* go together hand in hand. They don't work when they aren't used together. And, they both work best when used thinking of their joint functionality.
 
+You can see all of the many options with *git add* in [git-scm's documentation](https://git-scm.com/docs/git-add).
+
