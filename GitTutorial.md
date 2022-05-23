@@ -2,7 +2,7 @@
 
 ## Git init
 
-* *git init* - turns any directory into a Git repository.
+* `git init` - turns any directory into a Git repository.
 
 ### Common usages and options for 'git init'
 
@@ -16,7 +16,7 @@ You can see all of the options with git init in [git-scm's documentation](https:
 
 ## Git add
 
-* *git add [filename]* - command adds new or changed files in your working directory to the Git staging area.
+* `git add` [filename] - command adds new or changed files in your working directory to the Git staging area.
 
 *git add* is an important command - without it, no *git commit* would ever do anything. Sometimes, *git add* can have a reputation for being an unnecessary step in development. But in reality, *git add* is an important and powerful tool. *git add* allows you to shape history without changing how you work.
 
