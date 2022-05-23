@@ -9,3 +9,6 @@
 * *git init  <directory>* - Transform a directory in the current path into a Git repository
 
 * *git init --bare* - Create a new bare repository (a repository to be used as a remote repository only, that won't contain active development)
+
+You can see all of the options with git init in [git-scm's documentation](https://git-scm.com/docs/git-init)
+
