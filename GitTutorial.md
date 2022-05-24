@@ -96,3 +96,4 @@ To prepare for working on *branch*, switch to it by updating the index and the f
 
 HEAD normally refers to a named branch (e.g. `master`). Meanwhile, each branch refers to a specific commit.
 
+You can see all of the options with *git checkout* in **[git-scm's documentation](https://git-scm.com/docs/git-checkout)**.
