@@ -65,7 +65,7 @@ A useful feature of *git status* is that it will provide helpful information dep
 
 During merge conflicts, git status will also tell you exactly which files are the source of the conflict.
 
-## Common usages and options for `git status`
+### Common usages and options for `git status`
 
 *git status* - Most often used in its default form, this shows a good base of information
 
@@ -89,11 +89,18 @@ You can see all of the options with *git diff* in **[git-scm's documentation](ht
 
 Updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, *git checkout* will also update HEAD to set the specified branch as the current branch.
 
-## Common usages and options for `git checkout`
+### Common usages and options for `git checkout`
 
 *git checkout [branch]* - 
 To prepare for working on *branch*, switch to it by updating the index and the files in the working tree, and by pointing HEAD at the branch. Local modifications to the files in the working tree are kept, so that they can be committed to the *branch*.
 
 HEAD normally refers to a named branch (e.g. `master`). Meanwhile, each branch refers to a specific commit.
 
-You can see all of the options with *git checkout* in **[git-scm's documentation](https://git-scm.com/docs/git-checkout)**.
+You can see all of the options with *git checkout* in **[git-scm's documentation](https://git-scm.com/docs/git-checkout)**
+
+## Git log
+
+* `git log` - Show commit logs
+
+List commits that are reachable by following the parent links from the given commit(s), but exclude commits that are reachable from the one(s) given with a ^ in front of them. The output is given in reverse chronological order by default.
+
