@@ -51,3 +51,25 @@ Commits have two phases to help you craft commits properly. Once you're ready to
 *git commit --amend* - Replaces the most recent commit with a new commit.
 
 To see all of the possible options you have with *git commit*, check out **[Git's documentation](https://git-scm.com/docs/git-commit)**.
+
+## Git status
+
+* `Git status` - shows the current state of your Git working directory and staging area.
+
+A useful feature of *git status* is that it will provide helpful information depending on your current situation. In general, you can count on it to tell you:
+
+* Where HEAD is pointing, whether that is a branch or a commit (this is where you are "checked out" to)
+* If you have any changed files in your current directory that have not yet been committed
+* If changed files are staged or not
+* If your current local branch is linked to a remote branch, then git status will tell you if your local branch is behind or ahead by any commits
+
+During merge conflicts, git status will also tell you exactly which files are the source of the conflict.
+
+## Common usages and options for `git status`
+
+*git status* - Most often used in its default form, this shows a good base of information
+
+*git status -s* - Give output in short format
+
+*git status -v* - Shows more "verbose" detail including the textual changes of any uncommitted files
+
