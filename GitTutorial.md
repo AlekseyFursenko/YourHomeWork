@@ -77,7 +77,8 @@ You can see all of the options with *git status* in **[git-scm's documentation](
 
 ## Git diff
 
-* `git-diff` - Show changes between commits, commit and working tree, etc
+* `git diff` - Show changes between commits, commit and working tree, etc
 
 Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.
 
+You can see all of the options with *git diff* in **[git-scm's documentation](https://git-scm.com/docs/git-diff)**.
