@@ -82,3 +82,17 @@ You can see all of the options with *git status* in **[git-scm's documentation](
 Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.
 
 You can see all of the options with *git diff* in **[git-scm's documentation](https://git-scm.com/docs/git-diff)**.
+
+## Git checkout
+
+* `git checkout` - Switch branches or restore working tree files
+
+Updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, *git checkout* will also update HEAD to set the specified branch as the current branch.
+
+## Common usages and options for `git checkout`
+
+*git checkout [branch]* - 
+To prepare for working on *branch*, switch to it by updating the index and the files in the working tree, and by pointing HEAD at the branch. Local modifications to the files in the working tree are kept, so that they can be committed to the *branch*.
+
+HEAD normally refers to a named branch (e.g. `master`). Meanwhile, each branch refers to a specific commit.
+
