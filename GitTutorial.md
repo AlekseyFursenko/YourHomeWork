@@ -75,3 +75,9 @@ During merge conflicts, git status will also tell you exactly which files are th
 
 You can see all of the options with *git status* in **[git-scm's documentation](https://git-scm.com/docs/git-status)**.
 
+## Git diff
+
+* `git-diff` - Show changes between commits, commit and working tree, etc
+
+Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.
+
