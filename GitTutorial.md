@@ -49,3 +49,5 @@ Commits have two phases to help you craft commits properly. Once you're ready to
 *git commit -am "descriptive commit message"* - In addition to including the commit message, this option allows you to skip the staging phase. The addition of `-a` will automatically stage any files that are already being tracked by Git (changes to files that you've committed before).
 
 *git commit --amend* - Replaces the most recent commit with a new commit.
+
+To see all of the possible options you have with *git commit*, check out **[Git's documentation](https://git-scm.com/docs/git-commit)**.
