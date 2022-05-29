@@ -108,4 +108,19 @@ You can see all of the options with *git log* in **[git-scm's documentation](htt
 
 ## Git branch
 
-## Git merge
+`git-branch` - List, create, or delete branches
+
+### Common usages and options for `git branch`
+
+If `--list` is given, or if there are no non-option arguments, existing branches are listed; the current branch will be highlighted in green and marked with an asterisk. Option `-r` causes the remote-tracking branches to be listed, and option `-a` shows both local and remote branches.
+
+The command’s second form creates a new branch head named `branchname` which points to the current HEAD, or `start-point` if given. As a special case, for `start-point`, you may use `"A...B"` as a shortcut for the merge base of A and B if there is exactly one merge base. You can leave out at most one of A and B, in which case it defaults to `HEAD`.
+
+Note that this will create the new branch, but it will not switch the working tree to it; use `git switch newbranch` to switch to the new branch.
+
+With a -m or -M option, `oldbranch` will be renamed to `newbranch`.
+
+With a -d or -D option, `branchname` will be deleted. You may specify more than one branch for deletion.
+
+You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-branch)**
+
