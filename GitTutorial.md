@@ -152,3 +152,9 @@ Then "git merge topic" will replay the changes made on the topic branch since it
 The second syntax (`git merge --abort`) can only be run after the merge has resulted in conflicts. git merge --abort will abort the merge process and try to reconstruct the pre-merge state. However, if there were uncommitted changes when the merge started (and especially if those changes were further modified after the merge was started), `git merge --abort` will in some cases be unable to reconstruct the original (pre-merge) changes. 
 
 You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-merge)**
+## External links
+
+Below you can find additional manuals, instructions and tutorials videos about Git - Version control:
+
+* **[https://git-scm.com/doc/ext](https://git-scm.com/doc/ext)**
+* **[https://learngitbranching.js.org/](https://learngitbranching.js.org/)**
