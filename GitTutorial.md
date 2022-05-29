@@ -104,4 +104,8 @@ You can see all of the options with *git checkout* in **[git-scm's documentation
 
 List commits that are reachable by following the parent links from the given commit(s), but exclude commits that are reachable from the one(s) given with a ^ in front of them. The output is given in reverse chronological order by default.
 
+--graph
+Draw a text-based graphical representation of the commit history on the left hand side of the output. This may cause extra lines to be printed in between commits, in order for the graph history to be drawn properly.
+
+
 You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-log)**
