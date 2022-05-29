@@ -105,3 +105,7 @@ You can see all of the options with *git checkout* in **[git-scm's documentation
 List commits that are reachable by following the parent links from the given commit(s), but exclude commits that are reachable from the one(s) given with a ^ in front of them. The output is given in reverse chronological order by default.
 
 You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-log)**
+
+## Git branch
+
+## Git merge
