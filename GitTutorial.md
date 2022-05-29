@@ -105,3 +105,28 @@ You can see all of the options with *git checkout* in **[git-scm's documentation
 List commits that are reachable by following the parent links from the given commit(s), but exclude commits that are reachable from the one(s) given with a ^ in front of them. The output is given in reverse chronological order by default.
 
 You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-log)**
+
+
+## Git merge
+
+`git-merge` - Join two or more development histories together
+
+### Common usages and options for `git merge`
+
+Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by *git pull* to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
+
+Assume the following history exists and the current branch is "master":
+
+	  A---B---C topic
+	 /
+    D---E---F---G master
+
+Then "git merge topic" will replay the changes made on the topic branch since it diverged from master (i.e., E) until its current commit (C) on top of master, and record the result in a new commit along with the names of the two parent commits and a log message from the user describing the changes.
+
+	  A---B---C topic
+	 /         \
+    D---E---F---G---H master
+
+The second syntax (`git merge --abort`) can only be run after the merge has resulted in conflicts. git merge --abort will abort the merge process and try to reconstruct the pre-merge state. However, if there were uncommitted changes when the merge started (and especially if those changes were further modified after the merge was started), `git merge --abort` will in some cases be unable to reconstruct the original (pre-merge) changes. 
+
+You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-merge)**
