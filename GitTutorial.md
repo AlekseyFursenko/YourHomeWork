@@ -173,3 +173,18 @@ Clones a repository into a newly created directory, creates remote-tracking bran
 
 You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-clone)**
 
+
+## Git remote
+
+`git remote` - Manage set of tracked repositories
+
+### Common usages and options for `git remote`
+
+Manage the set of repositories ("remotes") whose branches you track.
+
+With no arguments, shows a list of existing remotes.
+
+*	`git remote add URL_repository` - Add a remote named `name` for the repository at `URL`. The command `git fetch name` can then be used to create and update remote-tracking branches `name/branch`.
+
+You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-remote)**
+
