@@ -159,8 +159,17 @@ Below you can find additional manuals, instructions and tutorials videos about G
 * **[https://git-scm.com/doc/ext](https://git-scm.com/doc/ext)**
 * **[https://learngitbranching.js.org/](https://learngitbranching.js.org/)**
 
+***
 
-**Test message** 
-	
-	
-* **Message from GitHub**	
+# Git Hub
+
+## Git clone
+
+`git clone repository_URL` - Clone a repository into a new directory
+
+### Common usages and options for `git clone`
+
+Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using `git branch --remotes`), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+
+You can see all of the options with *git log* in **[git-scm's documentation](https://git-scm.com/docs/git-clone)**
+
